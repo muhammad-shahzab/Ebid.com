@@ -1,0 +1,56 @@
+.reg-header
+{
+    background-color: rgba(241, 186, 36, 1);
+    padding: 0;
+}
+
+/* -------------------------------------------------- */
+
+ /* Basic styling for the form */
+ form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .checkbox {
+    margin-bottom: 15px;
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+  }
+
+  .reghe{
+
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .regbg{
+    width: 100%;
+    height: auto;
+    background-color: rgba(241, 186, 36, 0.234) ;
+
+    }

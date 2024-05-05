@@ -19,16 +19,16 @@
 
         <img src="./res/close.svg" alt="close" class="fa" onclick="hidemenu()">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Catagory</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contect</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#sell2">Catagory</a></li>
+          <li><a href="#abt">About</a></li>
+          <li><a href="./contect/contect.html">Contect</a></li>
         </ul>
 
       </div>
 
-      <button class="custom-button">Register</button>
-      <button class="custom-button">Login</button>
+      <button class="custom-button" id="reg">Register</button>
+      <button class="custom-button" id="log">Login</button>
 
       <img src="./res/menu.svg" alt="menu" class="fa" onclick="showmenu()">
 
@@ -52,7 +52,7 @@
 
 
 
-  </section>
+  </section id="cat">
 
   <section class="twoauction">
     <section class="auction">
@@ -63,24 +63,24 @@
         <div class="item-col">
           <img src="./res/car.jpg" alt="Item 1">
           <h3>Catagory</h3>
-          <h2>Item Title 1</h2>
-          <p>Description of Item 1</p>
+          <h2>Used cars</h2>
+          <p>Red Honda Civic 2021</p>
           <h2>Current Bid : 10000$</h2>
           <button>View Details</button>
         </div>
         <div class="item-col">
           <img src="./res/chair.jpg" alt="Item 2">
           <h3>Catagory</h3>
-          <h2>Item Title 2</h2>
-          <p>Description of Item 2</p>
-          <h2>Current Bid : 10000$</h2>
+          <h2>Furniture</h2>
+          <p>IKEA chair</p>
+          <h2>Current Bid : 100$</h2>
           <button>View Details</button>
         </div>
         <div class="item-col">
           <img src="./res/phone.jpg" alt="Item 3">
           <h3>Catagory</h3>
-          <h2>Item Title 3</h2>
-          <p>Description of Item 3</p>
+          <h2>Used Phone</h2>
+          <p>IPjone 13 pro max</p>
           <h2>Current Bid : 10000$</h2>
           <button>View Details</button>
         </div>
@@ -98,25 +98,25 @@
         <div class="item-col">
           <img src="./res/table.jpg" alt="Item 1">
           <h3>Catagory</h3>
-          <h2>Item Title 1</h2>
-          <p>Description of Item 1</p>
+          <h2>Used Furniture</h2>
+          <p>A Table by local Artist</p>
           <h2>Current Bid : 10000$</h2>
           <button>View Details</button>
         </div>
         <div class="item-col">
           <img src="./res/bike.jpg" alt="Item 2">
           <h3>Catagory</h3>
-          <h2>Item Title 2</h2>
-          <p>Description of Item 2</p>
-          <h2>Current Bid : 10000$</h2>
+          <h2>Used BIke</h2>
+          <p>a white raimbow cycle 24''</p>
+          <h2>Current Bid : 300$</h2>
           <button>View Details</button>
         </div>
         <div class="item-col">
           <img src="./res/art.jpg" alt="Item 3">
           <h3>Catagory</h3>
-          <h2>Item Title 3</h2>
-          <p>Description of Item 3</p>
-          <h2>Current Bid : 10000$</h2>
+          <h2>Art</h2>
+          <p>Hand made painting by PIcaso </p>
+          <h2>Current Bid : 100,000,000$</h2>
           <button>View Details</button>
         </div>
 
@@ -130,17 +130,19 @@
   </section>
 
 
-<section class="sell">
+  <section class="sell" id="sell2">
+
+<h1>GET BEST</h1>
+<h1>PRICE</h1>
+<button class="custom-button" id="Sellnow">Sell Now</button>
 
 
-
-
-</section>
+  </section>
 
 
   <section class="bestsold">
     <h1>Best Sold</h1>
-   
+
     <div class="row">
       <div class="col1">
         <img src="./res/3 2.jpg" alt="clock">
@@ -163,62 +165,76 @@
 
   </section>
 
-  <section class="about-us">
-    <h2>About Us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod lorem eget nibh tincidunt, vel laoreet magna porta. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-    <img src="./res/logo.svg" alt="Company Image">
-    <h3>Our Mission</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod lorem eget nibh tincidunt, vel laoreet magna porta. Donec rutrum congue leo eget malesuada. Nulla justo nulla, aliquet eget mollis nec, sodales at libero. Donec at ligula.</p>
+
+
+
+
+  <section class="about" id="abt">
+    <h1>About Us</h1>
+    <p>"Welcome to eBid.com, your premier destination for online auctions
+      . Founded on the principles of transparency, integrity, and innovation,
+      we've created a dynamic platform that connects buyers and sellers worldwide.
+      With a commitment to providing a seamless and secure bidding experience, we empower our
+      community to discover treasures, forge connections, and create unforgettable moments.
+      Whether you're a seasoned collector or a casual shopper, we invite you to explore our
+      diverse range of auctions and join us in uncovering hidden gems. Join the eBid.com family
+      today and embark on an exciting journey of exploration, discovery, and unparalleled value.</p>
+
+
+
     </section>
+
+
+
+
+  <div class="mission">
+
+    <h1>Our Mission</h1>
+    <p>"Our mission is to create a dynamic online auction platform that connects global buyers and sellers, offering a
+      seamless and
+      secure bidding experience. We prioritize transparency, integrity, and innovation to build trust and deliver
+      exceptional
+      value, empowering users to discover treasures and forge memorable experiences.</p>
+    <img src="./res/logo.svg" alt="Company Logo">
+  </div>
+
 
 
   <footer class="footer">
     <div class="footer-container">
-        <div class="footer-company">
-            <h2>Company</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod lorem eget.</p>
-        </div>
-        <div class="footer-features">
-            <h2>Features</h2>
-            <ul>
-                <li><a href="#">Art</a></li>
-                <li><a href="#">Antique</a></li>
-                <li><a href="#">Second hand</a></li>
-            </ul>
-        </div>
-        <div class="footer-contact">
-            <h2>Contact</h2>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">LinkdIn</a></li>
-                <li><a href="#">Email: info@yourcompany.com</a></li>
-            </ul>
-        </div>
-        <div class="footer-logo">
-            <img src="./res/logo.svg" alt="Company Logo">  </div>
+      <div class="footer-company">
+        <h2>Ebid.com</h2>
+        <p>Where Every Bid Unveils a Treasure: Your Online Auction Destination</p>
+      </div>
+      <div class="footer-features">
+        <h2>Features</h2>
+        <ul>
+          <li><a href="#cat">Art</a></li>
+          <li><a href="#cat">Antique</a></li>
+          <li><a href="#cat">Second hand</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkdIn</a></li>
+          <li><a href="#">Email: info@ebid.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-logo">
+        <img src="./res/logo.svg" alt="Company Logo">
+      </div>
     </div>
-   
-</footer>
-  
+
+  </footer>
 
 
 
 
 
-  <script>
-    var navLinks = document.getElementById("navLinks");
-    function showmenu() {
-      navLinks.style.right = "0";
-    }
-
-    function hidemenu() {
-      navLinks.style.right = "-200px";
-    }
-
-
-
-  </script>
+  <script src="./main.js"></script>
 
 
 
