@@ -19,6 +19,9 @@ if($hs->num_rows > 0){
         header("Location: ../index.html");
     }
 }
+else{
+    header("Location: ./login.php");
+}
 
 }
 $conn->close();

@@ -21,5 +21,5 @@ Reg.addEventListener('click', function() {
 const sln=document.getElementById('Sellnow');
 sln.addEventListener('click', function() {
  
-  window.location.href = './register/registers.php'; 
+  window.location.href = './loginpage/login.php'; 
 });

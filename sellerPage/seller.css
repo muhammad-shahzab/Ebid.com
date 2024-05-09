@@ -1,0 +1,38 @@
+
+
+main {
+    padding: 20px;
+}
+
+.sell-item {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sell-item h2 {
+    margin-top: 0;
+}
+
+.sell-item form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sell-item form input[type="text"],
+.sell-item form input[type="number"],
+.sell-item form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sell-item form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.reg-header{
+background-color: rgb(251, 177, 67);
+}

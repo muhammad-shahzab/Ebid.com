@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Page</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./seller.css">
+   
+
+</head>
+<body>
+   
+
+    <section class="reg-header">
+        <nav>
+          <a href="../index.html"> <img src="../res/logo.svg" alt="logo" class="logo"> </a>
+    
+          <div class="navlink" id="navLinks">
+    
+            <img src="./res/close.svg" alt="close" class="fa" onclick="hidemenu()">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../index.html#sell2">Catagory</a></li>
+              <li><a href="../index.html#abt">About</a></li>
+              <li><a href="../contect/contect.php">Contect</a></li>
+            </ul>
+    
+          </div>
+    
+    
+    
+          <img src="./res/menu.svg" alt="menu" class="fa" onclick="showmenu()">
+    
+        </nav>
+    
+      </section>
+
+    <main>
+        <section class="sell-item">
+            <h2>Sell an Item</h2>
+            <form action="#" method="post">
+                <label for="item-name">Item Name:</label>
+                <input type="text" id="item-name" name="item-name" required>
+                <label for="item-description">Item Description:</label>
+                <textarea id="item-description" name="item-description" rows="4" required></textarea>
+                <label for="item-price">Starting Price:</label>
+                <input type="number" id="item-price" name="item-price" required>
+                <label for="item-image">Upload Image:</label>
+                <input type="file" id="item-image" name="item-image" accept="image/*">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-company">
+          <h2>Ebid.com</h2>
+          <p>Where Every Bid Unveils a Treasure: Your Online Auction Destination</p>
+        </div>
+        <div class="footer-features">
+          <h2>Features</h2>
+          <ul>
+            <li><a href="../index.html#cat">Art</a></li>
+            <li><a href="../index.html#cat">Antique</a></li>
+            <li><a href="../index.html#cat">Second hand</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkdIn</a></li>
+            <li><a href="#">Email: info@ebid.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-logo">
+          <img src="../res/logo.svg" alt="Company Logo">
+        </div>
+      </div>
+  
+    </footer>
+  
+  
+    <script src="../main.js"></script>
+</body>
+</html>
