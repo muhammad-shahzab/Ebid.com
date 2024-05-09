@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <title>Register</title>
 </head>
 <body>
+ 
     <section class="reg-header">
         <nav>
           <a href="../index.html"> <img src="../res/logo.svg" alt="logo" class="logo"> </a>
@@ -19,7 +21,7 @@
               <li><a href="../index.html">Home</a></li>
               <li><a href="../index.html#sell2">Catagory</a></li>
               <li><a href="../index.html#abt">About</a></li>
-              <li><a href="../contect/contect.html">Contect</a></li>
+              <li><a href="../contect/contect.php">Contect</a></li>
             </ul>
     
           </div>

@@ -2,6 +2,7 @@
 {
     background-color: rgba(241, 186, 36, 1);
     padding: 0;
+
 }
 
 /* -------------------------------------------------- */
@@ -12,6 +13,8 @@
     margin: 50px auto;
     padding: 20px;
     border-radius: 5px;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
   }
 
   label {
@@ -32,7 +35,7 @@
     margin-bottom: 15px;
   }
 
-  input[type="submit"] {
+ .sbtn {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -46,6 +49,8 @@
 
     text-align: center;
     font-size: 4rem;
+    margin-top: 0;
+    padding-top: 2rem;
   }
 
   .regbg{
@@ -54,3 +59,18 @@
     background-color: rgba(241, 186, 36, 0.234) ;
 
     }
+
+    /* ----------------------------------------alert trying to be------------------------------- */
+    .alert {
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid transparent;
+      border-radius: 4px;
+  }
+  
+  .alert-danger {
+      color: #721c24;
+      background-color: #f8d7da;
+      border-color: #f5c6cb;
+  }
+  

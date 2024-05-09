@@ -1,4 +1,6 @@
 .conthead{
+  margin-top: 0;
+  padding-top: 1rem;
     font-size: 3rem;
     text-align: center;
 }
@@ -12,6 +14,8 @@ form {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
   }
 
   label {
